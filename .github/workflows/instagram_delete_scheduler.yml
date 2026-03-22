@@ -15,7 +15,7 @@ jobs:
       - name: Checkout Code
         uses: actions/checkout@v4
         with:
-          repository: Paragoun/x.only.boys
+          repository: OnlyBoyss/x.only.boys
           token: ${{ secrets.PRIVATE_REPO_TOKEN }}
           sparse-checkout: |
             INSTAGRAM/
